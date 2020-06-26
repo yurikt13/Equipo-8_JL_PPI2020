@@ -1,2 +1,2 @@
-# Equipo-8_LJ_PPI2020
+# Equipo-8_JL_PPI2020
 Pachamama
