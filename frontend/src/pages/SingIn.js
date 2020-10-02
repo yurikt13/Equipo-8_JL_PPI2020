@@ -1,16 +1,13 @@
 import React from 'react';
-import Header from '../components/Header';
 import Main1 from '../components/pantallas/Main1';
-import Footer from '../components/Footer';
+import Nav from '../components/Nav';
 
 function SingIn() {
   return (
     <div className='SingIn'>
-      <Header />
+      <Nav />
       <Main1 />
-      <Footer/>
-
-    </div>
+   </div>
     );
 }
 

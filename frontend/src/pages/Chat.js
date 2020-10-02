@@ -1,7 +1,6 @@
 import React from 'react';
-import Login from '../components/pantallas/Main1';
 import Nav from '../components/Nav';
-import Main1 from '../components/pantallas/Main7';
+import Main7 from '../components/pantallas/Main7';
 
 
 function Chat() {
