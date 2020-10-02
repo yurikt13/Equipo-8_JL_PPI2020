@@ -2,13 +2,13 @@ import React from 'react';
 import Header from '../components/Header';
 import Main6 from '../components/pantallas/Main6';
 
-function App6() {
+function Contactos() {
   return (
-    <div className='App6'>
+    <div className='Contactos'>
       <Header />
       <Main6 />
     </div>
     );
 }
 
-export default App6;
+export default Contactos;

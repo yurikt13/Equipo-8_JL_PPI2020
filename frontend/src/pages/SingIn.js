@@ -2,9 +2,9 @@ import React from 'react';
 import Header from '../components/Header';
 import Main1 from '../components/pantallas/Main1';
 
-function App1() {
+function SingIn() {
   return (
-    <div className='App1'>
+    <div className='SingIn'>
       <Header />
       <Main1 />
 
@@ -12,4 +12,4 @@ function App1() {
     );
 }
 
-export default App1;
+export default SingIn;
