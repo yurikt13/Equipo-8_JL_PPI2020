@@ -20,7 +20,6 @@ const Header = () => {
                 </div>
             </div>
         
-
             <div className="btn-group mr-auto mt-0 mt-lg-5">
                 <button type="button" className="btn btn-success">Plantas</button>
                 <button type="button" className="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

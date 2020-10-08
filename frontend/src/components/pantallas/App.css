@@ -1,0 +1,146 @@
+.cortesa{
+    text-align: center;
+}
+/*.foca{
+    text-align: center;
+    margin: 5em;
+    width: 15em;
+    height: 2em;
+}*/
+.paloma{
+    text-align: center;
+    margin: 1em;
+}
+.campo{
+    background-color: blue;
+    padding: 10px;
+    font-size: 20px;
+    color: cornsilk;
+}
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+}
+.hola{
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.casa{
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+    
+}
+.carro{
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.mapa{
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.topa{
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.nino{
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+h1{
+    text-align: center;
+}
+.dropdown{
+    display: inline-block !important;
+}
+h2{
+    text-align: center;
+}
+.manzana {
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.cara{
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.cabeza{
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.ojos {
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.naris{
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.salsa{
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.dropdown{
+    display: inline-block !important;
+}
+
+.sasi{
+    width: 15em;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.cdfr{
+    background-color: rgb(54, 197, 54);
+    padding: 10px;
+    font-size: 20px;
+    color: cornsilk;
+}
+.abcd{
+    background-color: rgb(54, 197, 54);;
+}
+.form-control{
+    margin-right: auto;
+    margin-left: auto;
+}
+.cando{
+    width: 15em;
+    margin-right: auto;
+    margin-left: auto;
+}
+.partuno{
+    background-color: rgb(92, 224, 92);
+}
+
+    
+    
