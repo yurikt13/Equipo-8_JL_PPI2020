@@ -11,8 +11,8 @@ function App () {
     return(
       <BrowserRouter>
        <Switch>
-         <Route  path="/" component={SingIn} />
-         <Route exact path="/inicio" component={Home} />
+         <Route exact path="/" component={SingIn} />
+         <Route  path="/inicio" component={Home} />
          <Route  path="/chat" component={Chat} />
          <Route  path="/contactos" component={Contactos} />
          <Route  path="/recordatorio" component={Recordatorio} />
