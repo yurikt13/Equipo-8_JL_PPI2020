@@ -8,10 +8,12 @@ const Main1 = () => {
 
         <div className="container text-center mt-5">
             <form className="form-group">
+          <div className="form text-center">
           <label for="inputEmail" className="sr-only" placeholder="Ingrese su usuario"></label>
           <input type="email" id="inputEmail" className="form-control mt-3" placeholder="Email address" required="" autofocus=""/>
           <label for="inputPassword" className="sr-only" placeholder="Contraseña"></label>
           <input type="password" id="inputPassword" className="form-control mt-3" placeholder="Password" required=""/>
+          </div>      
           <Link to="/inicio" className="text-decoration-none">
           <button className="btn btn-lg btn-success btn-flex mt-3" type="submit">Ingresar</button>
           </Link>

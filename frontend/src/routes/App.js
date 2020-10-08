@@ -15,8 +15,13 @@ function App () {
     return(
       <BrowserRouter>
        <Switch>
+<<<<<<< HEAD
          <Route  path="/" component={Facebook} />
          <Route exact path="/inicio" component={Home} />
+=======
+         <Route exact path="/" component={SingIn} />
+         <Route  path="/inicio" component={Home} />
+>>>>>>> 0fae4a35d02b2bf2a0e1a4f92fb6d32fc8863981
          <Route  path="/chat" component={Chat} />
          <Route  path="/contactos" component={Contactos} />
          
