@@ -21,13 +21,19 @@ const Main1 = () => {
           <p className="text mt-3">- o -</p>
           </div>
           <div>
+            <Link to="/facebook"className="text-decoration-none">
           <button className="btn btn-lg btn-primary btn-flex mt-3" type="submit">Ingresar con Facebook</button>
+          </Link>
           </div>
           <div>
           <button className="btn btn-lg btn-danger btn-flex mt-3" type="submit">Ingresar con Google</button>
           </div>
+
           <p className="text mt-5">¿No tiene usuario?</p>
+
+          <Link to="/registro"className="text-decoration-none">
           <button className="btn btn-lg btn-success btn-flex" type="submit">REGISTRESE</button>
+          </Link>
         </form>
         </div>
     

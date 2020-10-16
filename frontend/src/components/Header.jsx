@@ -40,6 +40,7 @@ const Header = () => {
                     <a className="dropdown-item" href="#">Mis plantas</a>
                 </div>
             </div >
+            
         </div>
         </div>
     )
