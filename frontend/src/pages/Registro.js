@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from '../components/Header';
+import Nav from '../components/Nav';
 import Main4 from '../components/pantallas/Main4';
 
 
 function Registro() {
     return (
       <div className='Registro'>
-           <Header/>
+           <Nav />
            <Main4/>
       </div>
   

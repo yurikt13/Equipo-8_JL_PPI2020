@@ -1,17 +1,14 @@
 import React from 'react';
 import Nav from '../components/Nav';
-import Main7 from '../components/pantallas/Main7';
-import Footer2 from '../components/Footer2';
+import Main6 from '../components/pantallas/Main6';
+import Footer from '../components/Footer';
 
 
 function Chat() {
   return (
     <div className='Chat'>
       <Nav />
-      <Main7 />
-      <Footer2/>
-
-
+      <Main6 />
     </div>
     );
 }

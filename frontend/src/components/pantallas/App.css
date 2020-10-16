@@ -142,5 +142,34 @@ h2{
     background-color: rgb(92, 224, 92);
 }
 
-    
-    
+.face {
+    margin-left: 0px;
+}
+
+.mas {
+    margin-right: 0px;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.ioo {
+    margin-left: 50px;
+}
+
+hee {
+    margin-right: 30px;
+}
+
+svg {
+    border-color: black;
+}
+
+.ticon {
+    margin-left: 125px;
+}
+
+.timis {
+    margin-left: 110px;
+}

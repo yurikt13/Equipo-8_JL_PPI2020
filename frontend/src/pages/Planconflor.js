@@ -1,15 +1,14 @@
 import React from 'react';
-import Nav from '../components/Nav';
-import Main3 from '../components/pantallas/Main3';
 import Header from '../components/Header';
+import Main9 from '../components/pantallas/Main9';
 
-function Planflor() {
+function Planconflor() {
   return (
-    <div className='Planflor'>
+    <div className='Planconflor'>
       <Header />
-      <Main3 />
+      <Main9 />
     </div>
     );
 }
 
-export default Planflor;
+export default Planconflor;

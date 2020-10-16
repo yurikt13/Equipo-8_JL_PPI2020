@@ -1,30 +1,34 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
-//import facebook from '../facebook/img3/facebook.png';
-import facebook from '../pantallas/images/facebook.png';
+import facebook from '../pantallas/images/iniface.jpg';
 
 function Main2() {
     return (
         <>
             <div className="Container">
-                <div className='campo'>
-                    <p>Ingresar con Facebook</p>
+                <nav className="navbar navbar-expand-lg navbar-light bg-primary">
+                    <a className="navbar-brand text-white" href="#">Ingresar con Facebook</a>
+                </nav>
+                <br/>
+                <br/>
+                <br/>
+                <div className="Containerr text-center mt-5">
+                <img className="face" src={facebook} width="100"/>
+                <br/>
+                    <div class="card-body">
+                        <h5 class="card-title">Continuar como</h5>
+                        <h5 class="card-title">Taejunk</h5>
+                        <p class="card-text"></p>
+                        <br/>
+                        <br/>
+                        <Link to="/inicio" className="text-decoration-none">
+                        <a href="#" class="btn btn-primary">Continuar</a>
+                        </Link>
+                    </div>
                 </div>
-            </div>
+                </div>
 
-            <div className='paloma'>
-                <img src={facebook} />
-            </div>
-
-            <div className='cortesa'>
-                <h1>Continuar como</h1>
-                <h1>Taejunk</h1>
-                <p>Logun App recibira</p>
-                <p>su perfil publico</p>
-                <button>Ingresar ya</button>
-                <p></p>
-                <p>Esto no permite que la aplicacion publique en facebook</p>
-            </div>
         </>
     );
 }
