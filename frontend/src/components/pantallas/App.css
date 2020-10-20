@@ -141,40 +141,6 @@ h2{
 .partuno{
     background-color: rgb(92, 224, 92);
 }
-<<<<<<< HEAD
-
-.face {
-    margin-left: 0px;
-}
-
-.mas {
-    margin-right: 0px;
-}
-
-span {
-    margin-left: 10px;
-}
-
-.ioo {
-    margin-left: 50px;
-}
-
-hee {
-    margin-right: 30px;
-}
-
-svg {
-    border-color: black;
-}
-
-.ticon {
-    margin-left: 125px;
-}
-
-.timis {
-    margin-left: 110px;
-}
-=======
 .copila{
 background-color:  rgb(79, 219, 165);
 }
@@ -190,6 +156,7 @@ background-color:  rgb(79, 219, 165);
 .cuaderno{
     background-color: rgb(79, 219, 165);
 }
+.tapara{
+    width: 12em;
+}
     
-    
->>>>>>> 52357509f4eae64cb5897a714edc946ebd61b058
