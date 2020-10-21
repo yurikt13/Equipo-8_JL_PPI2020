@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../pantallas/App.css';
 import con1 from '../pantallas/images/con1.jpg';
 import con2 from '../pantallas/images/con2.jpg';
@@ -23,7 +24,9 @@ const Main9 = () => {
           <div className="card-body">
             <h5 className="card-title">Caléndula</h5>
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <Link to="/calendula" className="text-decoration-none">
             <a href="#" className="btn btn-success">Ver mas..</a>
+            </Link>
           </div>
         </div>
 

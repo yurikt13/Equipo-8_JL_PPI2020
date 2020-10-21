@@ -1,60 +1,40 @@
 import React from 'react';
+import '../components/pantallas/App.css';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
 
     return (
-        <div className="Container">
+        <>
             <nav className="navbar navbar-expand-lg navbar-light bg-success">
-                <a className="navbar-brand text-white" href="#">PACHAMAMA</a>
+                <a className="navbar-brand text-white" href="/inicio">PACHAMAMA</a>
+                <button className="navbar-toggler colorvitos" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-list text-white" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav mr-auto">
+                        <li className="nav-item active">
+                            <Link to="/inicio" className="text-decoration-none">
+                                <a className="nav-link text-white" href="">Inicio<span className="sr-only">(current)</span></a>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/yo" className="text-decoration-none">
+                                <a className="nav-link text-white" href="">Yo</a>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/mas" className="text-decoration-none">
+                                <a className="nav-link  text-white" href="" tabindex="-1" aria-disabled="true">Más</a>
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
             </nav>
-        
-        <div className="btn-expand-lg navbar-light bg-success inline-block">
-            <div className="btn-group mr-auto mt-0 mt-lg-5">
-                <button type="button" className="btn btn-success">Foro</button>
-                <button type="button" className="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span className="sr-only">Toggle Dropdown</span>
-                </button>
-                <div className="dropdown-menu">
-                    <Link to="/inicio" className="text-decoration-none">
-                    <a className="dropdown-item" href="#">Novedades</a>
-                    </Link>
-                    <Link to="/chat" className="text-decoration-none">
-                    <a className="dropdown-item" href="#">Mis chats</a>
-                    </Link>
-                </div>
-            </div>
-        
-            <div className="btn-group mr-auto mt-0 mt-lg-5">
-                <button type="button" className="btn btn-success">Plantas</button>
-                <button type="button" className="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span className="sr-only">Toggle Dropdown</span>
-                </button>
-                <div className="dropdown-menu">
-                   <Link to="/plantasconflor" className="text-decoration-none">
-                    <a className="dropdown-item" href="#">Con flor</a>
-                    </Link>
-                    <Link to="/plantasinflor" className="text-decoration-none">
-                    <a className="dropdown-item" href="#">Sin flor</a>
-                    </Link>
-                </div>
-            </div>
-
-
-            <div className="btn-group mr-auto mt-0 mt-lg-5">
-                <button type="button" className="btn btn-success">Recordatorios</button>
-                <button type="button" className="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span className="sr-only">Toggle Dropdown</span>
-                </button>
-                <div className="dropdown-menu">
-                    <Link to="/recordatorios" className="text-decoration-none">
-                    <a className="dropdown-item" href="#">Mis plantas</a>
-                    </Link>
-                </div>
-            </div >
-            
-        </div>
-        </div>
+        </>
     )
 };
 

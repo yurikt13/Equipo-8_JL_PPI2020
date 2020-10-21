@@ -141,7 +141,6 @@ h2{
 .partuno{
     background-color: rgb(92, 224, 92);
 }
-<<<<<<< HEAD
 
 .face {
     margin-left: 0px;
@@ -174,22 +173,16 @@ svg {
 .timis {
     margin-left: 110px;
 }
-=======
-.copila{
-background-color:  rgb(79, 219, 165);
+
+.mass {
+    margin-left: 100px;
 }
-.fala{
-    text-align: center;
+
+.foro {
+    margin-left: 0px;
 }
-.turcon{
-    width: 16em;
-}
-.zaza{
-    width: 18em;
-}
-.cuaderno{
-    background-color: rgb(79, 219, 165);
-}
+nav{
+    color: white !important;
+    background-color: white !important;
     
-    
->>>>>>> 52357509f4eae64cb5897a714edc946ebd61b058
+}

@@ -4,6 +4,7 @@ const Barra = () => {
 
     return (
         <>
+        
         </>
     )
 
