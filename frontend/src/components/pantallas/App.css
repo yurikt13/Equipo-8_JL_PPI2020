@@ -141,48 +141,51 @@ h2{
 .partuno{
     background-color: rgb(92, 224, 92);
 }
-
-.face {
-    margin-left: 0px;
+.copila{
+background-color:  rgb(79, 219, 165);
 }
-
-.mas {
-    margin-right: 0px;
+.fala{
+    text-align: center;
 }
-
-span {
-    margin-left: 10px;
+.turcon{
+    width: 16em;
 }
-
-.ioo {
-    margin-left: 50px;
-}
-
-hee {
-    margin-right: 30px;
-}
-
-svg {
-    border-color: black;
-}
-
-.ticon {
-    margin-left: 125px;
-}
-
-.timis {
-    margin-left: 110px;
-}
-
-.mass {
-    margin-left: 100px;
+.zaza{
+    width: 18em;
 }
 
 .foro {
     margin-left: 0px;
 }
-nav{
-    color: white !important;
-    background-color: white !important;
-    
+.tapara{
+    width: 12em;
+}
+
+.label1 {
+    margin-left: 8px;
+}
+
+.label2 {
+    margin-left: 5px;
+}
+
+.label3 {
+    margin-left: 8px;
+}
+
+.label4 {
+    margin-left: 5px;
+}
+
+.activ5 {
+    margin-left: 30px;
+}
+
+
+.horas {
+    margin-left: 5px;
+}
+
+.iconalarm {
+    margin-left: 4px;
 }

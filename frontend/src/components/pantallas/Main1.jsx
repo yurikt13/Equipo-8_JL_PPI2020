@@ -21,7 +21,9 @@ const Main1 = () => {
           <p className="text mt-3">- o -</p>
           </div>
           <div>
+
           <Link to="/facebook" className="text-decoration-none">
+
           <button className="btn btn-lg btn-primary btn-flex mt-3" type="submit">Ingresar con Facebook</button>
           </Link>
           </div>
