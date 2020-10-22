@@ -42,7 +42,7 @@ class Main16 extends Component {
 
 
         <Link to="/fecha" className="text-decoration-none label1">
-          <button>Seleccionar fecha</button>
+          <button>14/10/20</button>
         </Link>
 
         <select className="label2">
@@ -75,7 +75,7 @@ class Main16 extends Component {
         </select>{'            '}
 
 
-        <Link to="/bnm" className="text-decoration-none label3">
+        <Link to="/cadacuanto" className="text-decoration-none label3">
           <button>Cada día</button>
         </Link>
 

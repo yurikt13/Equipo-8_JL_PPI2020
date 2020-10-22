@@ -9,14 +9,14 @@ function Main4() {
       <form>
         <div className='cando mt-5'>
           <div className="form-group sasi">
-            <label for="exampleInputEmail1"></label>
-            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Usuario"/>
+            <label for="exampleInputUser"></label>
+            <input type="user" className="form-control" id="exampleInputUser1" aria-describedby="userHelp" placeholder="Usuario"/>
             <small id="emailHelp" className="form-text text-muted"></small>
           </div>
 
           <div className="form-group sasi">
-            <label for="exampleInputPassword1"></label>
-            <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Correo electronico"/>
+          <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico"/>
+            <small id="emailHelp" className="form-text text-muted"></small>
           </div>
 
           <div className="form-group sasi">

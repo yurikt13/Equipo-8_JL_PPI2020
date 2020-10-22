@@ -33,7 +33,7 @@ const Inicio = () => {
                                     <Link to="/plantasconflor" className="text-decoration-none">
                                         <a className="dropdown-item" href="#">Con flor</a>
                                     </Link>
-                                    <Link to="/plantasinflor" className="text-decoration-none">
+                                    <Link to="/plantsinflor" className="text-decoration-none">
                                         <a className="dropdown-item" href="#">Sin flor</a>
                                     </Link>
                                 </div>

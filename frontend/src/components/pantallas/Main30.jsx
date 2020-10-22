@@ -40,7 +40,6 @@ class Main16 extends Component {
 
         {this.state.carpa}
 
-
         <Link to="/fecha" className="text-decoration-none label1">
           <button>Seleccionar fecha</button>
         </Link>
@@ -109,6 +108,84 @@ class Main16 extends Component {
 
           <div>
             <Link to="/sinalarma" className="text-decoration-none bootncitovoelim">
+            <svg width="25px" height="25px" viewBox="0 0 16 16" class="bi bi-patch-minus-fll text-danger" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zM6 7.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z" />
+            </svg></Link>
+          </div>
+        </div>
+        <hr />
+
+
+        {this.state.carpa}
+
+        <Link to="/fecha" className="text-decoration-none label1">
+          <button>Seleccionar fecha</button>
+        </Link>
+
+        <select className="label2">
+          <option>Seleccionar hora</option>
+          <option>1:00 AM</option>
+          <option>2:00 AM</option>
+          <option>3:00 AM</option>
+          <option>4:00 AM</option>
+          <option>5:00 AM</option>
+          <option>6:00 AM</option>
+          <option>7:00 AM</option>
+          <option>8:00 AM</option>
+          <option>9:00 AM</option>
+          <option>10:00 AM</option>
+          <option>11:00 AM</option>
+          <option>12:00 AM</option>
+
+          <option>1:00 PM</option>
+          <option>2:00 PM</option>
+          <option>3:00 PM</option>
+          <option>4:00 PM</option>
+          <option>5:00 PM</option>
+          <option>6:00 PM</option>
+          <option>7:00 PM</option>
+          <option>8:00 PM</option>
+          <option>9:00 PM</option>
+          <option>10:00 PM</option>
+          <option>11:00 PM</option>
+          <option>12:00 PM</option>
+        </select>{'            '}
+
+
+        <Link to="/bnm" className="text-decoration-none label3">
+          <button>Cada día</button>
+        </Link>
+
+        <select className="label4">
+          <option> Cuidado </option>
+          <option>Desbrozar</option>
+          <option>Deshojar</option>
+          <option>Fertilizar</option>
+          <option>Fumigar</option>
+          <option>Pesticida</option>
+          <option>Plantar</option>
+          <option>Podar</option>
+          <option>Pulverizar</option>
+          <option>Regar</option>
+          <option>Sembrar</option>
+          <option>Transplantar</option>
+        </select>
+
+        
+        <div className="botones3">
+          <div className="custom-control custom-switch activ52 " >
+            <input type="checkbox" className="custom-control-input margemv" id="customSwitch1" onClick={this.handlekkk} />
+            <label className="custom-control-label margemv" for="customSwitch1">Activar</label>
+          </div>
+          <div>
+            <Link to="/alarma2" className="text-decoration-none bootncitovo2">
+            <svg width="25px" height="25px" viewBox="0 0 16 16" class="bi bi-patch-plus-fll text-success" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zM8.5 6a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V10a.5.5 0 0 0 1 0V8.5H10a.5.5 0 0 0 0-1H8.5V6z" />
+            </svg></Link>
+          </div>
+
+          <div>
+            <Link to="/alarma" className="text-decoration-none bootncitovoelim2">
             <svg width="25px" height="25px" viewBox="0 0 16 16" class="bi bi-patch-minus-fll text-danger" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zM6 7.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z" />
             </svg></Link>
