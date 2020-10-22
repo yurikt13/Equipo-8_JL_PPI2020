@@ -1,6 +1,9 @@
 import React from 'react';
 import '../pantallas/App.css';
 import planta from '../pantallas/images/planta.jpg';
+import planta2 from '../pantallas/images/planta2.jpg';
+import planta3 from '../pantallas/images/planta3.jpg';
+import planta4 from '../pantallas/images/planta4.jpg';
 
 const Main5 = () => {
 
@@ -12,7 +15,7 @@ const Main5 = () => {
                     <div className="card-body">
                         <h5 className="card-title">Alfred</h5>
                         <p className="card-text">He tenido un buen progreso con mi planta!!</p>
-                        <img src={planta} className="card-img-top" alt="" />
+                        <img src={planta4} className="card-img-top" alt="" />
                         <small className="text-muted">Hace 2h</small>
                     </div>
                     <div className="card-footer">
@@ -39,7 +42,7 @@ const Main5 = () => {
                     <div className="card-body">
                         <h5 className="card-title">Kira</h5>
                         <p className="card-text">He tenido un buen progreso con mi planta!!</p>
-                        <img src={planta} className="card-img-top" alt="" />
+                        <img src={planta2} className="card-img-top" alt="" />
                         <small className="text-muted">Hace 2h</small>
                     </div>
                     <div className="card-footer">
@@ -68,7 +71,7 @@ const Main5 = () => {
                     <div className="card-body">
                         <h5 className="card-title">Hyung</h5>
                         <p className="card-text">He tenido un buen progreso con mi planta!!</p>
-                        <img src={planta} className="card-img-top" alt="" />
+                        <img src={planta3} className="card-img-top" alt="" />
                         <small className="text-muted">Hace 2h</small>
                     </div>
                     <div className="card-footer">

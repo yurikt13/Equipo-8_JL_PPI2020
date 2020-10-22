@@ -1,22 +1,26 @@
 .cortesa{
     text-align: center;
 }
+
 /*.foca{
     text-align: center;
     margin: 5em;
     width: 15em;
     height: 2em;
 }*/
+
 .paloma{
     text-align: center;
     margin: 1em;
 }
+
 .campo{
     background-color: blue;
     padding: 10px;
     font-size: 20px;
     color: cornsilk;
 }
+
 table {
     border-collapse: collapse;
 }
@@ -34,82 +38,95 @@ th {
     padding: 9px;
     display: inline-block !important;
 }
+
 .casa{
     width: 18rem;
     margin: 50px;
     padding: 9px;
     display: inline-block !important;
-    
 }
+
 .carro{
     width: 18rem;
     margin: 50px;
     padding: 9px;
     display: inline-block !important;
 }
+
 .mapa{
     width: 18rem;
     margin: 50px;
     padding: 9px;
     display: inline-block !important;
 }
+
 .topa{
     width: 18rem;
     margin: 50px;
     padding: 9px;
     display: inline-block !important;
 }
+
 .nino{
     width: 18rem;
     margin: 50px;
     padding: 9px;
     display: inline-block !important;
 }
+
 h1{
     text-align: center;
 }
 .dropdown{
     display: inline-block !important;
 }
+
 h2{
     text-align: center;
 }
+
 .manzana {
     width: 18rem;
     margin: 50px;
     padding: 9px;
     display: inline-block !important;
 }
+
 .cara{
     width: 18rem;
     margin: 50px;
     padding: 9px;
     display: inline-block !important;
 }
+
 .cabeza{
     width: 18rem;
     margin: 50px;
     padding: 9px;
     display: inline-block !important;
 }
+
 .ojos {
     width: 18rem;
     margin: 50px;
     padding: 9px;
     display: inline-block !important;
 }
+
 .naris{
     width: 18rem;
     margin: 50px;
     padding: 9px;
     display: inline-block !important;
 }
+
 .salsa{
     width: 18rem;
     margin: 50px;
     padding: 9px;
     display: inline-block !important;
 }
+
 .dropdown{
     display: inline-block !important;
 }
@@ -120,45 +137,79 @@ h2{
     margin-left: auto;
     text-align: center;
 }
+
 .cdfr{
     background-color: rgb(54, 197, 54);
     padding: 10px;
     font-size: 20px;
     color: cornsilk;
 }
+
 .abcd{
     background-color: rgb(54, 197, 54);;
 }
+
 .form-control{
     margin-right: auto;
     margin-left: auto;
 }
+
 .cando{
     width: 15em;
     margin-right: auto;
     margin-left: auto;
 }
+
 .partuno{
     background-color: rgb(92, 224, 92);
 }
-.copila{
+
+.copila1{
 background-color:  rgb(79, 219, 165);
 }
-.fala{
-    text-align: center;
+
+.copila2{
+    background-color:  rgb(79, 219, 165);
 }
+
+.copila3{
+    background-color:  rgb(79, 219, 165);
+}
+
+
+.copila4{
+    background-color:  rgb(79, 219, 165);
+}
+
+.copila5{
+    background-color:  rgb(79, 219, 165);
+}
+
+.fala{
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+#date {
+    margin-left: 5px;
+}
+
 .turcon{
     width: 16em;
 }
+
 .zaza{
     width: 18em;
 }
-.cuaderno{
-    background-color: rgb(79, 219, 165);
+
+.foro {
+    margin-left: 0px;
 }
+
 .tapara{
     width: 12em;
 }
+<<<<<<< HEAD
 .yo{
     width: 15em;
     
@@ -177,3 +228,80 @@ background-color:  rgb(79, 219, 165);
     text-align: left;
 }
     
+=======
+
+.label1 {
+    margin-left: 8px;
+}
+
+.label2 {
+    margin-left: 10px;
+}
+
+.label3 {
+    margin-left: 60px;
+}
+
+.label4 {
+    margin-left: 10px;
+}
+
+.horas {
+    margin-left: 5px;
+}
+
+.iconalarm {
+    margin-left: 4px;
+}
+
+.botones3 {
+    display: flex !important;
+    margin-top: 4%;
+}
+
+.bootncitovo {
+    display: inline-block !important;
+    margin-left: 30px;
+}
+
+.margemv {
+    display: inline-block !important;
+}
+
+.activ5 {
+    margin-left: 10px;
+}
+
+.bootncitovoelim {
+    margin-left: 5px;
+}
+
+.activ52 {
+    margin-left: 10px;
+}
+
+.bootncitovo2 {
+    margin-left: 30px;
+}
+
+.bootncitovoelim2 {
+    margin-left: 5px;
+}
+
+.btnes {
+    margin-left: 130px;
+}
+
+.btnes2 {
+    margin-left: 250px;
+}
+
+.card-title {
+    font-size: 25px;
+}
+
+
+.hace {
+    margin-left: 5px;
+}
+>>>>>>> a1e2a38816055d3aa94513c0ac091e5ee4963a45

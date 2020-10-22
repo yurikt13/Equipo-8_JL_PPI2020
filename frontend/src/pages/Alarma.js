@@ -1,16 +1,16 @@
 import React from 'react';
-import Nav from '../components/Nav';
+import Navalarm from '../components/Navalarm';
 import Main16 from '../components/pantallas/Main16';
 
 
 
-function Alfred() {
+function Alarma() {
   return (
-    <div className='Alfred'>
-      <Nav />
+    <div className='Alarma'>
+      <Navalarm />
       <Main16/>
     </div>
     );
 }
 
-export default Alfred;
+export default Alarma;

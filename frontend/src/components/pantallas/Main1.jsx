@@ -10,7 +10,7 @@ const Main1 = () => {
             <form className="form-group">
           <div className="form text-center">
           <label for="inputEmail" className="sr-only" placeholder="Ingrese su usuario"></label>
-          <input type="email" id="inputEmail" className="form-control mt-3" placeholder="Email address" required="" autofocus=""/>
+          <input type="email" id="inputEmail" className="form-control mt-3" placeholder="Ingrese su usuario" required="" autofocus=""/>
           <label for="inputPassword" className="sr-only" placeholder="Contraseña"></label>
           <input type="password" id="inputPassword" className="form-control mt-3" placeholder="Password" required=""/>
           </div>      
@@ -21,7 +21,9 @@ const Main1 = () => {
           <p className="text mt-3">- o -</p>
           </div>
           <div>
-          <Link to="/facebook"className="text-decoration-none">
+
+          <Link to="/facebook" className="text-decoration-none">
+
           <button className="btn btn-lg btn-primary btn-flex mt-3" type="submit">Ingresar con Facebook</button>
           </Link>
           </div>
@@ -30,8 +32,7 @@ const Main1 = () => {
           </div>
 
           <p className="text mt-5">¿No tiene usuario?</p>
-
-          <Link to="/registro"className="text-decoration-none">
+          <Link to="/registrese" className="text-decoration-none">
           <button className="btn btn-lg btn-success btn-flex" type="submit">REGISTRESE</button>
           </Link>
         </form>

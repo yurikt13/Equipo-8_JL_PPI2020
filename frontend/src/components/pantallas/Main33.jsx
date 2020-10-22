@@ -21,10 +21,11 @@ function Main11() {
       <div className="card-deck">
       <div className="card">
         <img src={con4} className="card-img-top" alt="Flor" />
+        <small className="text-muted hace">Agregada hace 1 día(s)</small>
           <div className="card-body">
             <h5 className="card-title">Pensamiento</h5>
-            <small className="text-muted">Agregada hace 1 día(s)</small>
-            <p className="card-text"></p>
+            <p className="card-text">Fertilizar hoy 7:00AM</p>
+            <p className="card-text">Cada 2 día(s)</p>
             <Link to="/alarma" className="text-decoration-none">
             <a href="#" className="btn btn-success">Alarma</a>
             </Link>
