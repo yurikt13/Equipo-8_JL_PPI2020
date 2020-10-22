@@ -20,7 +20,8 @@ import Planconflor from '../pages/Planconflor';
 import Calendula from '../pages/Calendula';
 import Contactos from '../pages/Ayuda';
 import CycasRevolutas from '../pages/CycasRevolutas';
-
+import Mas from '../pages/Mas';
+import Footer from '../components/Footer';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -50,6 +51,8 @@ function App () {
          <Route path="/alarma3" component={Alarma3}/>
          <Route path="/alarma4" component={Alarma4}/>
          <Route path="/recordatorios2"component={Recordatorios2}/>
+         <Route path="/mas"component={Mas}/>
+         <Route path="/footer" component={Footer}/>
         
 
 

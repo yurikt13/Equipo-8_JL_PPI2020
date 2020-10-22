@@ -284,3 +284,34 @@ background-color:  rgb(79, 219, 165);
 .hace {
     margin-left: 5px;
 }
+
+.ioo {
+    text-align: right;
+}
+
+.yonom {
+    font-size: 60px;
+    margin-left: 20px;
+    margin-bottom: 63px;
+    margin-top: 20px;
+}
+
+.mas {
+    display: flex;
+
+}
+
+.yosvg {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.textmas {
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.hrr {
+    color: white;
+}
+
