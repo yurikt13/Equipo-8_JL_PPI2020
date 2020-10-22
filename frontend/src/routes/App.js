@@ -12,6 +12,7 @@ import Facebook from '../pages/Facebook';
 import Plantsinflor from '../pages/Plantsinflor';
 import Alarma from '../pages/Alarma';
 import Planconflor from '../pages/Planconflor';
+import Yo from '../pages/Yo';
 
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -32,9 +33,10 @@ function App () {
          <Route path="/seleccionar" component={Seleccion}/>
          <Route path="/ayuda" component={Ayuda}/>
          <Route path="/Plantsinflor"component={Plantsinflor}/>
-         <Route exact path="/" component={Alarma} />
+         <Route exact path="/alarma" component={Alarma} />
          <Route exact path="/seleccionar3" component={Seleccion3} />
          <Route exact path="/bnm" component={Seleccion2} />
+         <Route exact path="/" component={Yo} />
 
 
 
