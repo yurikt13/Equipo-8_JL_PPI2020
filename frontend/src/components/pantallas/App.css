@@ -209,6 +209,26 @@ background-color:  rgb(79, 219, 165);
 .tapara{
     width: 12em;
 }
+<<<<<<< HEAD
+.yo{
+    width: 15em;
+    
+}
+.tu{
+    text-align: center;
+    margin: 3em;
+}
+.noche{
+    background-color: rgb(73, 194, 73);
+}
+.el{
+    width: 7em;
+}
+.card-title{
+    text-align: left;
+}
+    
+=======
 
 .label1 {
     margin-left: 8px;
@@ -284,6 +304,7 @@ background-color:  rgb(79, 219, 165);
 .hace {
     margin-left: 5px;
 }
+<<<<<<< HEAD
 
 .ioo {
     text-align: right;
@@ -315,3 +336,6 @@ background-color:  rgb(79, 219, 165);
     color: white;
 }
 
+=======
+>>>>>>> a1e2a38816055d3aa94513c0ac091e5ee4963a45
+>>>>>>> 18ccc78afc252622ef215d07398221b916c86d92
