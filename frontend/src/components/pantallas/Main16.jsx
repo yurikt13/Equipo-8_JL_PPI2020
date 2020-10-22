@@ -75,17 +75,18 @@ class Main16 extends  Component{
         </Link>
 
         <select name="horas">
-
-          <option> Cuidado </option>
+        <option> Cuidado </option>
+          <option>Desbrozar</option>
+          <option>Deshojar</option>
+          <option>Fertilizar</option>
+          <option>Fumigar</option>
+          <option>Pesticida</option>
+          <option>Plantar</option>
           <option>Podar</option>
-          <option>Podar</option>
-          <option>Podar</option>
-          <option> Cuidado </option>
-          <option> Cuidado </option>
-          <option> Cuidado </option>
-          <option> Cuidado </option>
-          <option> Cuidado </option>
-
+          <option>Pulverizar</option>
+          <option>Regar</option>
+          <option>Sembrar</option>
+          <option>Transplantar</option>
        </select>
       <div className="custom-control custom-switch" >
     <input type="checkbox" className="custom-control-input" id="customSwitch1" onClick= {this.handlekkk}/>

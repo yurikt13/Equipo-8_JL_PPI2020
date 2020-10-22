@@ -10,11 +10,13 @@ import Fecha from '../pages/Fecha';
 import Facebook from '../pages/Facebook';
 import Plantsinflor from '../pages/Plantsinflor';
 import Alarma from '../pages/Alarma';
+import Alarma2 from '../pages/Alarma2';
+import Alarma3 from '../pages/Alarma3';
+import Alarma4 from '../pages/Alarma4';
 import Planconflor from '../pages/Planconflor';
 import Contactos from '../pages/Ayuda';
-
-
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
 
 
 function App () {
@@ -34,7 +36,10 @@ function App () {
          <Route path="/Plantsinflor"component={Plantsinflor}/>
          <Route exact path="/" component={Alarma} />
          <Route exact path="/fecha" component={Fecha} />
+         <Route exact path="/" component={Alarma2} />
          <Route exact path="/cadacuanto" component={Cadacuanto} />
+         <Route exact path="/" component={Alarma3} />
+         <Route exact path="/" component={Alarma4} />
 
 
 
