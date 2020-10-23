@@ -8,7 +8,7 @@ function Main23() {
         <>
                 <div className="Container bg-success mas">
                     <div>
-                        <Link to="yo" className="text-decoration-none">
+                        <Link to="post" className="text-decoration-none">
                         <svg width="5em" height="5em" viewBox="0 0 16 16" className="bi bi-person-circle text-white yosvg" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z" />
                             <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
@@ -16,10 +16,11 @@ function Main23() {
                         </Link>
                     </div>
                     <div>
-                        <Link to="yo" className="text-decoration-none">
+                        <Link to="post" className="text-decoration-none">
                         <h3 className="text-title text-white yonom">Taejunk</h3>
                         </Link>
                     </div>
+                    <br/>
                     <hr />
                 </div>
 
@@ -44,25 +45,22 @@ function Main23() {
                     </div>
                     <hr />
                     <div>
-                        <Link to="/miprogreso" className="text-decoration-none">
-                            <p className="text-white textmas">Mi progreso</p>
-                        </Link>
-                    </div>
-                    <hr />
-                    <div>
                         <Link to="/acercade" className="text-decoration-none">
                             <p className="text-white textmas">Acerca de</p>
                         </Link>
                     </div>
                     <hr />
                     <div>
-                        <Link to="/salir" className="text-decoration-none">
+                        <Link to="/" className="text-decoration-none">
                             <p className="text-white textmas">Salir</p>
                         </Link>
-                        <br />
-                        <br />
-                        <br />
+                        <hr />
                     </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
                 </div>
 
         </>

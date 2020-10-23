@@ -2,13 +2,13 @@ import React from 'react';
 import Nav from '../components/Nav';
 import Main29 from '../components/pantallas/Main29'
 
-function Ayuda() {
+function Acerca() {
   return (
-    <div className='Ayuda'>
+    <div className='Acerca'>
       <Nav />
       <Main29 />
     </div>
     );
 }
 
-export default Ayuda;
+export default Acerca;

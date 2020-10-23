@@ -1,13 +1,13 @@
 import React from 'react';
 import Main20 from '../components/pantallas/Main20';
-import Nav from '../components/Nav';
-import Footer from '../components/Footer';
+import Header from '../components/Header';
+
 function Yo() {
   return (
     <div className='Yo'>
-        <Nav/>
+      <Header />
       <Main20 />
-      <Footer/>
+  
     </div>
     );
 }

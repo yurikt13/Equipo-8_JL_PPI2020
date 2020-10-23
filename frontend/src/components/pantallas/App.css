@@ -1,3 +1,22 @@
+.card1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(184, 235, 184);    
+}
+
+
+.card2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(184, 235, 184);    
+}
+
+.card3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(184, 235, 184);    
+}
+
 .cortesa{
     text-align: center;
 }
@@ -74,9 +93,6 @@ th {
     display: inline-block !important;
 }
 
-h1{
-    text-align: center;
-}
 .dropdown{
     display: inline-block !important;
 }
@@ -209,27 +225,53 @@ background-color:  rgb(79, 219, 165);
 .tapara{
     width: 12em;
 }
-<<<<<<< HEAD
-.yo{
-    width: 15em;
-    
+
+
+.navyo {
+    display: flex;
+    background-color: rgb(29, 236, 115);    
 }
-.tu{
-    text-align: center;
-    margin: 3em;
+
+.yofond {
+    background-color: rgb(179, 228, 179) !important;    
 }
+
+.yopost {
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.textpostcoment {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 19px;
+}
+
+.yoinform {
+    font-size: 25px;
+    margin-left: 70px;
+}
+
+
+.cardpost {
+    border-radius: 30px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .noche{
     background-color: rgb(73, 194, 73);
 }
+
 .el{
     width: 7em;
 }
+
 .card-title{
-    text-align: left;
+    margin-left: 0px;
+    font-size: 20px;
 }
     
-=======
-
 .label1 {
     margin-left: 8px;
 }
@@ -289,22 +331,17 @@ background-color:  rgb(79, 219, 165);
 }
 
 .btnes {
-    margin-left: 130px;
+    margin-left: 70px;
 }
 
 .btnes2 {
     margin-left: 250px;
 }
 
-.card-title {
-    font-size: 25px;
-}
-
-
 .hace {
     margin-left: 5px;
 }
-<<<<<<< HEAD
+
 
 .ioo {
     text-align: right;
@@ -336,6 +373,51 @@ background-color:  rgb(79, 219, 165);
     color: white;
 }
 
-=======
->>>>>>> a1e2a38816055d3aa94513c0ac091e5ee4963a45
->>>>>>> 18ccc78afc252622ef215d07398221b916c86d92
+.textubica {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 5px;
+
+}
+
+.textcumple {
+    font-size: 20px;
+    margin-left: 5px;   
+    margin-top: 30px;
+}
+
+.iconubica {
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+
+.iconcumple {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 13px;
+}
+
+.notificacion {
+    margin-left: 5px;
+}
+
+.lenguaje {
+    margin-left: 5px;
+}
+
+.seguridad {
+    margin-left: 5px;
+}
+
+.titleprogress {
+    font-size: 30px;
+}
+
+.iconimage {
+    margin-left: 270px;
+}
+
+.nom {
+    margin-left: 5px;
+}

@@ -52,6 +52,17 @@ const Main7 = () => {
                         </div>
                     </li>
 
+                    <br />
+
+                    <div>
+                        <div className="comentarr mt-3 border-secondary">
+                            <div className="labeldialgo" >
+                                <label for="exampleFormControlTextarea1"></label>
+                                <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Di algo.."></textarea>
+                            </div>
+                        </div>
+                    </div>
+
                 </ul>
             </div>
 

@@ -1,13 +1,14 @@
 import React from 'react';
 import Nav from '../components/Nav';
-import Main27 from '../components/pantallas/Main27';
+import Main28 from '../components/pantallas/Main28';
 
-function Mandala1 (){
-    return(
-<div className='Mandala1'>
+function Mandala1() {
+  return (
+    <div className='Mandala1'>
       <Nav />
-      <Main27 />
+      <Main28 />      
     </div>
-    )
-};
+    );
+}
+
 export default Mandala1;
