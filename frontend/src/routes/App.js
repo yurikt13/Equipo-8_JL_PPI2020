@@ -45,7 +45,7 @@ function App () {
          <Route path="/alfred" component={Alfred} />
          <Route path="/plantasconflor" component={Planconflor} />
          <Route path="/calendula" component={Calendula} />
-         <Route path="/Plantsinflor"component={Plantsinflor}/>
+         <Route path="/plantsinflor"component={Plantsinflor}/>
          <Route path="/cycasrevolutas"component={CycasRevolutas}/>
          <Route path="/recordatorios" component={Recordatorios}/>
          <Route path="/seleccionar" component={Seleccion}/>

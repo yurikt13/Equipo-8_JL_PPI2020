@@ -1,12 +1,10 @@
 import React from 'react';
-import Nav from '../components/Nav';
 import Main17 from '../components/pantallas/Main17';
 
 
 function Fecha() {
   return (
     <div className='Fecha'>
-      <Nav />
       <Main17/>
 
 

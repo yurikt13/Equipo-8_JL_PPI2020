@@ -7,7 +7,6 @@ import Footer from '../components/Footer';
 function Chat() {
   return (
     <div className='Chat'>
-      <Nav />
       <Main6 />
     </div>
     );
