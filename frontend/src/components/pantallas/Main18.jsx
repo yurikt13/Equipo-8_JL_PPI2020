@@ -1,21 +1,3 @@
-/*import React from 'react'
-import './App.css';
-function Main18 (){
-    return(
-        <>
-        <div className="fala">
-<input type="radio" name="option1"/>Diariamente cada...dias(s)<br/>
-
-<input type="radio" name="option1"/>Semanalmente cada ... semana(s)<br/>
-
-<input type="radio" name="option1"/>Mensualmente cada ... mes(es)<br/>
-
-</div>  
-</>
-  )
-};
-export default Main18;*/
-
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 

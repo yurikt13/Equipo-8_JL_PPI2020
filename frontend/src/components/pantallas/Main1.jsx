@@ -10,7 +10,7 @@ const Main1 = () => {
             <form className="form-group">
           <div className="form text-center">
           <label for="inputEmail" className="sr-only" placeholder="Ingrese su usuario"></label>
-          <input type="email" id="inputEmail" className="form-control mt-3" placeholder="Ingrese su usuario" required="" autofocus=""/>
+          <input type="user" className="form-control" id="exampleInputUser1" aria-describedby="userHelp" placeholder="Ingrese su usuario"/>
           <label for="inputPassword" className="sr-only" placeholder="Contraseña"></label>
           <input type="password" id="inputPassword" className="form-control mt-3" placeholder="Password" required=""/>
           </div>      

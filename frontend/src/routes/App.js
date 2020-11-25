@@ -1,4 +1,5 @@
 import React from 'react';
+import Principal from '../pages/Principal';
 import SingIn from '../pages/SingIn';
 import Facebook from '../pages/Facebook';
 import Registro from '../pages/Registro';
@@ -37,7 +38,8 @@ function App () {
     return(
       <BrowserRouter>
        <Switch>
-         <Route exact path="/" component={SingIn} />
+       <Route exact path="/" component={Principal} />
+         <Route exact path="/login" component={SingIn} />
          <Route path="/facebook" component={Facebook} />
          <Route path="/registrese" component={Registro} />
          <Route  path="/inicio" component={Home} />
