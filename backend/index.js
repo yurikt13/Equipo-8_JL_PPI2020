@@ -8,7 +8,7 @@ const usuario = require('./routes/usuario');
 const publicacion = require('./routes/publicacion');
 
 // Ajustes
-app.set('port', 4001);
+app.set('port', process.env.PORT || 4001);
 app.set('json spaces', 2);
 
 // Middlewares
@@ -36,3 +36,5 @@ app.get('/', (req, res) => {
 app.listen(app.get('port'), () => {
   console.log(`Servidor corriendo en el puerto ${app.get('port')}`);
 }); 
+
+
