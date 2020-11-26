@@ -1,5 +1,6 @@
 const express = require('express');
 const publicacion = express.Router();
+
 const mysqlConnection = require('../db/database');
 
 
@@ -16,10 +17,10 @@ publicacion.get('/publicacion', (req, res) => {
 
 
 publicacion.post('/nueva-publicacion', (req, res) => {
-  const { id_foro, id_usuario, publicacion, fecha } = req.body;
-  let publicacionN = [id_foro, id_usuario, publicacion, fecha];
+  const { id_usuario, publicacion, fecha } = req.body;
+  let publicacionN = [id_usuario, publicacion, fecha];
   let nuevaPublicacion = `INSERT INTO publicacion (id_foro, id_usuario, publicacion, fecha)
-                  VALUES(?,?,?,?)`;
+                  VALUES(?,?,?)`;
   mysqlConnection.query(nuevaPublicacion, publicacionN, (err, results, fields) => {
     if (err) {
       return console.error(err.message);
@@ -31,10 +32,10 @@ publicacion.post('/nueva-publicacion', (req, res) => {
 
 
 publicacion.put('/publicacion/:id', (req, res) => {
-  const { id_foro, id_usuario, publicacion, fecha } = req.body;
+  const { id_usuario, publicacion, fecha } = req.body;
   const { id_publicacion } = req.params;
-  mysqlConnection.query(`UPDATE publicacion SET id_foro = ?, id_usuario = ?, publicacion = ?, fecha = ?`,
-    [id_foro, id_usuario, publicacion, fecha], (err, rows, fields) => {
+  mysqlConnection.query(`UPDATE publicacion SET id_usuario = ?, publicacion = ?, fecha = ?`,
+    [id_usuario, publicacion, fecha], (err, rows, fields) => {
       if (!err) {
         res.json({ status: 'Publicación actualizada' });
       } else {

@@ -1,5 +1,6 @@
 const express = require('express');
 const planta = express.Router();
+
 const mysqlConnection = require('../db/database');
 
 
@@ -41,7 +42,6 @@ planta.put('/planta/:id', (req, res) => {
       }
     });
 });
-
 
 planta.delete('/planta/:id_planta', (req, res) => {
   const { id_planta } = req.params;

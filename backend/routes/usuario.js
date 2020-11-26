@@ -1,5 +1,6 @@
 const express = require('express');
 const usuario = express.Router();
+
 const mysqlConnection = require('../db/database');
 
 
@@ -17,10 +18,10 @@ usuario.get('/usuario', (req, res) => {
 
 
 usuario.post('/nuevo-usuario', (req, res) => {
-  const { usuario, contraseña } = req.body;
-  let usuarioN = [usuario, contraseña];
-  let nuevoUsuario = `INSERT INTO usuario (usuario, contraseña)
-                  VALUES(?,?)`;
+  const { usuario, email, contraseña } = req.body;
+  let usuarioN = [usuario, email, contraseña];
+  let nuevoUsuario = `INSERT INTO usuario (usuario, email, contraseña)
+                  VALUES(?,?,?)`;
   mysqlConnection.query(nuevoUsuario, usuarioN, (err, results, fields) => {
     if (err) {
       return console.error(err.message);
@@ -32,10 +33,10 @@ usuario.post('/nuevo-usuario', (req, res) => {
 
 
 usuario.put('/usuario/:id', (req, res) => {
-  const { usuario, contraseña } = req.body;
+  const { usuario, email, contraseña } = req.body;
   const { id_usuario } = req.params;
-  mysqlConnection.query(`UPDATE usuario SET usuario = ?, contraseña = ?`,
-    [usuario, contraseña], (err, rows, fields) => {
+  mysqlConnection.query(`UPDATE usuario SET usuario = ?, email = ?, contraseña = ?`,
+    [usuario, email, contraseña], (err, rows, fields) => {
       if (!err) {
         res.json({ status: 'Usuario actualizado' });
       } else {
