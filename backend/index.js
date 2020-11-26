@@ -7,8 +7,8 @@ const usuario = require('./routes/usuario');
 const publicacion = require('./routes/publicacion');
 
 // Ajustes
-app.set('port',3000);
-app.set('json spaces',2);
+app.set('port', 3000);
+app.set('json spaces', 2);
 
 // Middlewares
 app.use(express.json());
@@ -20,7 +20,7 @@ app.use('/api', planta);
 app.use('/api', usuario);
 app.use('/api', publicacion);
 
-app.get('/',(req,res)=>{
+app.get('/', (req, res) => {
   res.send('Hola a todos - Esta es nuestra de NodeJS - Express y MySql')
 });
 

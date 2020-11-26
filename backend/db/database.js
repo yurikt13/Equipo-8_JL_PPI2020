@@ -6,7 +6,7 @@ const mysqlConnection = mysql.createConnection({
   database: 'bkhdve6frlqtzwmxph5b',
   multipleStatements: true
 });
-mysqlConnection.connect(function(err) {
+mysqlConnection.connect(function (err) {
   if (err) {
     console.error(err);
     return;
