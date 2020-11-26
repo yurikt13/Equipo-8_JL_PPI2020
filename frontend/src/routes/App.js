@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Principal from '../pages/Principal';
 import SingIn from '../pages/SingIn';
 import Facebook from '../pages/Facebook';
@@ -38,7 +39,7 @@ function App () {
     return(
       <BrowserRouter>
        <Switch>
-       <Route exact path="/" component={Principal} />
+        <Route exact path="/" component={Principal} />
          <Route exact path="/login" component={SingIn} />
          <Route path="/facebook" component={Facebook} />
          <Route path="/registrese" component={Registro} />
@@ -67,10 +68,6 @@ function App () {
          <Route path="/configuraciones" component={Configuraciones}/>
          <Route path="/miprogreso" component={MiProgreso}/>
          <Route path="/progresocalathea" component={ProgresCalathea}/>
-
-
-
-
        </Switch>
       </BrowserRouter>
     )

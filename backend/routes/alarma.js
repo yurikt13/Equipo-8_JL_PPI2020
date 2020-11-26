@@ -30,7 +30,7 @@ alarma.post('/nueva-alarma', (req, res) => {
 });
 
 
-usuario.put('/alarma/:id', (req, res) => {
+alarma.put('/alarma/:id', (req, res) => {
   const { cuidado, fecha, hora, cada_cuando, id_planta } = req.body;
   const { id_alarma } = req.params;
   mysqlConnection.query(`UPDATE alarma SET cuidado = ?, fecha = ?, hora = ?, cada_cuando = ?, id_planta = ?`,
@@ -45,7 +45,7 @@ usuario.put('/alarma/:id', (req, res) => {
 
 
 
-usuario.delete('/alarma/:id_alarma', (req, res) => {
+alarma.delete('/alarma/:id_alarma', (req, res) => {
   const { id_alarma } = req.params;
   mysqlConnection.query('DELETE FROM alarma WHERE id_alarma = ?',
     [id_alarma], (err, rows, fields) => {
