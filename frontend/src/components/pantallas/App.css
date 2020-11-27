@@ -1,24 +1,53 @@
 
+
+.envipubli {
+    display: inline-flex;
+}
+
+.enviarr {
+    margin-left: 20px;
+}
+
 .card1 {
     margin-left: 10px;
     margin-right: 10px;
-    background-color: rgb(184, 235, 184);    
 }
 
+.coment1 {
+    margin-left: 25px;
+}
+
+.save1 {
+    margin-left: 35px;
+}
 
 .card2 {
     margin-left: 10px;
     margin-right: 10px;
-    background-color: rgb(184, 235, 184);    
+}
+
+.coment2 {
+    margin-left: 25px;
+}
+
+.save2 {
+    margin-left: 35px;
 }
 
 .card3 {
     margin-left: 10px;
     margin-right: 10px;
-    background-color: rgb(184, 235, 184);    
 }
 
-.cortesa{
+.coment3 {
+    margin-left: 25px;
+}
+
+.save3 {
+    margin-left: 35px;
+}
+
+.cortesa {
     text-align: center;
 }
 
@@ -248,6 +277,23 @@ background-color:  rgb(79, 219, 165);
     font-size: 19px;
 }
 
+.labelsForm {
+    display: inline-flex;
+}
+
+.estadoForm {
+    margin-right: 20px;
+}
+
+.cuidadoForm {
+    margin-right: 70px;
+}
+
+.climaForm {
+    margin-right: 20px;
+}
+
+
 .yoinform {
     font-size: 25px;
     margin-left: 70px;
@@ -278,15 +324,15 @@ background-color:  rgb(79, 219, 165);
 }
 
 .label2 {
-    margin-left: 10px;
-}
-
-.label3 {
     margin-left: 60px;
 }
 
-.label4 {
+.label3 {
     margin-left: 10px;
+}
+
+.label4 {
+    margin-left: 60px;
 }
 
 .horas {

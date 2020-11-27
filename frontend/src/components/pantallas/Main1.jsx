@@ -1,8 +1,32 @@
-import React from 'react'; 
+import React, { Component } from 'react'; 
+import axios from 'axios';
 import { Link } from 'react-router-dom';
 
-const Main1 = () => {
+class Main1 extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      dataUser: []
+    }
+  }
 
+  peticionGet = () => {
+    axios.get('https://backpachamama.herokuapp.com/api/usuario/:id')
+      .then(res => {
+        this.setState({
+          dataUser: res.data
+        })
+      }).catch(err => {
+        console.log(err.message)
+      })
+  }
+
+  componentDidMount() {
+    this.peticionGet()
+  }
+
+  render () {
+    console.log(this.state.dataUser);
 
           return (
 
@@ -39,6 +63,7 @@ const Main1 = () => {
         </div>
     
     )
+          }
 };
 
 export default Main1;

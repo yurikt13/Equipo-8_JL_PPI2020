@@ -12,6 +12,7 @@ import Calendula from '../pages/Calendula';
 import Plantsinflor from '../pages/Plantsinflor';
 import CycasRevolutas from '../pages/CycasRevolutas';
 import Recordatorios from '../pages/Recordatorios';
+import AñadirPlanta from '../pages/AñadirPlanta';
 import Seleccion from '../pages/Seleccion';
 import Cadacuanto from '../pages/Cadacuanto';
 import Fecha from '../pages/Fecha';
@@ -51,6 +52,7 @@ function App () {
          <Route path="/plantsinflor"component={Plantsinflor}/>
          <Route path="/cycasrevolutas"component={CycasRevolutas}/>
          <Route path="/recordatorios" component={Recordatorios}/>
+         <Route path="/addPlant" component={AñadirPlanta}/>
          <Route path="/seleccionar" component={Seleccion}/>
          <Route path="/acercade" component={Acerca}/>
          <Route exact path="/alarma" component={Alarma} />
